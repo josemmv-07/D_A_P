@@ -76,3 +76,60 @@ print(resultado)
 
 resultado = (a - b)
 print(resultado)
+
+# - Ejercicio 3.2: Crea tres variables, x = 10, y = 20 y z = 30. Luego, asigna a la variable total la suma de estas tres variables
+
+x = 10
+y = 20
+z = 30
+total = x + y + z
+
+print(total)
+
+# - Ejercicio 3.3: Crea una variable 'ninguno' y asígnale el valor None. ¿Qué tipo tiene esta variable?
+
+p = None
+print(type(p)) # NoneType
+
+# Ejercicio 4.1: Imprime en pantalla los valores de dos variables: nombre = "Ana" y edad = 25. La salida debería verse así: "Ana tiene 25 años".
+
+nombre = "Ana"
+edad = 25
+print(nombre, "tiene", edad, "años")
+
+# Ejercicio 4.2: Usa el argumento end para que la función print imprima "Hola" y luego "Mundo" en la misma línea, separadas por un espacio.
+
+print("Hola", end=" ")
+print("Mundo")
+
+# Ejercicio 4.3: Usa el argumento sep para imprimir los valores 1, 2 y 3 con un guion (-) como separador entre ellos.
+
+print(1, 2, 3, sep="-")
+
+# - Ejercicio 4.4: Imprime las palabras "Python", "es", "genial" en la misma línea, pero separadas por comas.
+
+print("Python", "es", "genial", sep=",")
+
+#  Ejercicio 5.1: Crea un programa que pida al usuario su nombre y su edad, los guarde en variables y luego imprima un mensaje que diga "Hola, [nombre]. Tienes [edad] años". Escribe un comentario de una sola línea que describa el propósito de tu código.
+
+a = input("¿como te llamas?\n")
+b = input("¿Qué edad tienes?\n")
+
+print(f"Hola, {a}. Tienes {b} años.") # llama a la variable a y b que esta dentro de un input
+
+# Ejercicio 5.2: Crea tres variables: una con un valor booleano, otra con un número y otra con una cadena de texto. 
+# Usa print() para mostrar los tres valores en una sola línea, separados por un guion. Escribe un comentario de varias 
+# líneas en el que expliques qué hace el código.
+
+a = True
+b = 10
+c = "Hola Mundo"
+
+print(a,b,c, sep="-")
+"""El codigo imprime a que es verdadero\
+    que b es un entero y c una cadena de texto"""
+
+# - Ejercicio 5.3: Realiza una operación matemática con variables que hayas asignado anteriormente y usa print() 
+# para mostrar el resultado de la operación. Comenta temporalmente una línea de código que imprima un valor para evitar que se ejecute.
+
+print(x + y + z)
