@@ -1,0 +1,11 @@
+no = input("Nombre:\n")
+eda = input("Edad:\n")
+ciud = input("Ciudad:\n")
+barra = "_"
+print(f"{barra:_>20}")
+print(f"|Nombre|{no:^13}|", end="")
+print(f"|{barra:_>20}|", end="")
+print(f"|Edad|{eda:^15}|", end="")
+print(f"|{barra:_>20}|", end="")
+print(f"|Ciudad|{ciud:^13}|", end="")
+print(f"|{barra:_>20}|", end="")

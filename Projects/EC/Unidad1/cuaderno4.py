@@ -1,7 +1,3 @@
-"""
-## 4.5 Ejercicios avanzados
-- Ejercicio 11: Formatear la salida de una tabla. Solicita al usuario varias entradas para crear una tabla de datos. Por ejemplo, nombre, edad y ciudad, y luego alinea las columnas.
-- Ejercicio 12: Cálculo de una media. Solicita al usuario una lista de números separados por comas, luego calcula y muestra la media de esos números. Emplea las funciones 'sum' y 'len' para calcular la media."""
 
 #  Ejercicio 1: Escribe tres expresiones numéricas: una que utilice enteros, otra con números decimales, y otra con una mezcla de ambos. Muestra los resultados de estas expresiones.
 
@@ -73,3 +69,25 @@ usua = input("dime una franse")
 usus = usua.split()
 print(usus)
 print(max(usus, key=len))
+
+#  Ejercicio 11: Formatear la salida de una tabla. Solicita al usuario varias entradas para crear una tabla de datos. Por ejemplo, nombre, 
+# edad y ciudad, y luego alinea las columnas.
+
+no = input("Nombre:\n")
+eda = input("Edad:\n")
+ciud = input("Ciudad:\n")
+barra = "_"
+print(f"{barra:_>20}")
+print(f"|Nombre|{no:^13}|", end="")
+print(f"|{barra:_>20}|")
+print(f"|Edad|{eda:^15}|", end="")
+print(f"|{barra:_>20}|")
+print(f"|Ciudad|{ciud:^13}|", end="")
+print(f"|{barra:_>20}|")
+
+
+
+
+
+# Ejercicio 12: Cálculo de una media. Solicita al usuario una lista de números separados por comas, luego calcula y muestra la media de esos números. 
+# Emplea las funciones 'sum' y 'len' para calcular la media.
