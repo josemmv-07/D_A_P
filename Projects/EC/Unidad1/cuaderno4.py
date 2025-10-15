@@ -91,3 +91,7 @@ print(f"|{barra:_>20}|")
 
 # Ejercicio 12: Cálculo de una media. Solicita al usuario una lista de números separados por comas, luego calcula y muestra la media de esos números. 
 # Emplea las funciones 'sum' y 'len' para calcular la media.
+entrada = input("Dime una lista de números separados por comas: ")
+numeros = [int(n.strip()) for n in entrada.split(",")]  
+media = sum(numeros) / len(numeros)  
+print("La media es:", media)
